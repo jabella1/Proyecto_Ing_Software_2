@@ -1,0 +1,265 @@
+/*GENERALES*/
+
+*{
+    padding: 0px;/*MARGEN INTERIOR DE UN ELEMENTO*/
+    margin:  0px; /*MARGEN EXTERIOR DE UN ELEMENTO */
+    font-family: sans-serif,helvetica,arial;
+    /*ESTO SE RESETEA A 0 PARA QUE TODO ESTE MAS PEGADO Y CONTROLAR MAS LOS MARGENES*/
+}
+
+body{
+    background: url(../img/fondo.png)/*PARA AGREGAR EL FONDO*/
+}
+
+a{/*PARA CAMBIAR COLOR DE TODOS LOS ENLACES DE LA PAGINA*/
+    color: #ff0000;
+}
+
+a:visited{ /* PARA QUE NUNCA CAMBIEN DE COLOR LOS ENLACES DESPUES DE DARLE CLICK*/
+    color: #ff0000;
+}
+
+a:hover{/* PARA CUANDO PASE EL MOUSE ENCIMA DEL TEXTO CAMBIE DE COLOR*/
+    color: #0000cc
+}
+
+/* FALTA AREGGLAR ESTOS DOS*/
+.alerta_verde{
+    color:green;
+}
+
+.alerta_roja{
+    color:red;
+}
+/*Container*/
+
+#container{  /*PARA PONERLE BORDE DE COLOR GRIS A TODO.*/
+    width: 80%; /*siempre la misma anchura y centrar*/
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+/*HEADER-PARTE SUPERIOR DONDE ESTA EL LOGO Y EL TITULO*/
+#header{
+    height: 145px;
+    background: #0000cc;
+}
+
+#logo img{
+    float:left;
+    height: 100px;
+}
+
+#logo a{ /* PARA UBICAR EL TEXTO AL LADO DEL LOGO Y DARLE DIFERENTE ESTILO DE IMAGEN*/
+    float:left;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: 'Helvetica';
+    text-transform: uppercase;/*para ponerlo en mayuscula*/
+    color: #99ccff;
+    font-weight: bold; /*para que se vea en negrita el texto */
+    text-decoration: none; /* quitar subrayado */
+    margin-top: 18px;
+    margin-left: 25px;
+    text-shadow: 0px 2px 1px #222222; /*DARLE SOMBREADO COMO EN 3D */
+    transition: all 300ms; /*PARA CUANDO PASE POR ENCIMA SE MUEVA*/
+}
+
+
+#logo a:hover{
+    text-shadow:0px 2px 1px #222222, 0px 0px 4px #99ccff;
+}
+#logo { /*PARA PONERLE MARGENES AL LOGO*/
+    float:left;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/* MENU */
+
+#Menu{
+    clear:both; /*para que lo que este dentro del menu se mantenga y no se suba*/
+    background: #222;
+    color:white;
+    height: 55px;
+    border-bottom: 4px solid #01b1EA;
+}
+
+
+
+#Menu ul{
+    list-style: none; /*para quitarle los punticos a las listas*/
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#Menu ul li{ /* darle estilo a los elementos dentro de la lista del menu*/
+    line-height: 55px;
+    float:left;
+    border-right: 1px solid #363636;
+}
+
+
+#Menu a{
+    display:block; 
+    color: white;
+    text-decoration: none; /*quitar subrayado*/
+    padding-left: 12px;   /* estos dos son para que se separen mas , los elementos del menu*/
+    padding-right: 12px;
+    transition: all 300ms; /* para ponerle un efecto al hover de pasar por encima el mouse*/
+    
+}
+
+#Menu a:first-child{
+    border-left: 1px solid #363636;
+}
+
+#Menu a:hover{
+    background: #0000cc; /* para que se ponga azul al pasar el mouse por encima de las opciones del menu*/
+}
+
+
+/* barra lateral*/
+
+#Registro ul{
+    list-style: none;
+    padding-left: 12px;   /* estos dos son para que se separen mas , los elementos del menu*/
+    padding-right: 12px;
+}
+
+#content{
+    margin: 0px auto; /*para centrar*/
+    overflow: hidden; /* para lo que sobre salga se oculte */
+    background: white;
+    
+}
+
+
+#lateral{
+    width: 22%;
+    min-height: 500px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+
+#lateral h3{
+    display: block;
+    color: #222;
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #E1E1E1;
+    border-bottom: 2px solid #0000cc;
+    
+}
+#lateral ul li{
+    margin-left: 20px;
+}
+
+#lateral .block_aside{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+
+
+
+/* formulario - login */
+
+label,input[type="text"],
+input[type="password"],
+input[type="email"]{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select{
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 0px 2px #ccc inset; /* sombreado dentro del campo */
+    background: white;
+    padding: 2px;
+    color: gray; /* para que el texto que ingrese salga de color gris */
+    transition: all 300ms /* all es para seleccionar que la transicion le afecte a todos*/
+}
+
+input[type="text"]:focus, /* focus es que cuando estemos encima de estos campos, se resalte el contenido */
+input[type="password"]:focus,
+input[type="email"]:focus{
+    border: 1px solid #1579b5;
+    color: black;
+}
+
+/* botones input */
+
+input[type="button"],
+input[type="submit"],
+button{
+    display: block;
+    border-radius: 2px;
+    width: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #2979CD;
+    border: 1px solid #11608E;
+    cursor: pointer;
+}
+
+label,input[type="button"],
+input[type="submit"],
+button{
+    display: block;
+    margin-top: 10px;
+}
+
+/* CENTRAL */
+
+#central{
+    width: 72%;
+    float: right;
+    border-left: 1px solid #ccc;
+    box-shadow:  -5px -1px #ddd;
+    padding: 25px;
+}
+
+#central h1{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+/* pie de pagina - footer */
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: #222222;
+    border-top: 4px solid #01b1EA;
+}

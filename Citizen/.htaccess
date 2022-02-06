@@ -1,0 +1,18 @@
+<ifModule mod_rewrite.c>
+#Activar rewrite
+RewriteEngine on
+ErrorDocument 404 http://localhost/Proyecto_Ing_Software2/Error/
+
+
+#se comprueba que nunca que accedamos aqui se muestra nada que sea un direcciorio o un fichero, no se va a poder
+#cargar un direccorio cualquiera ni un archivo cualquiera en la url
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+# EL FORMATO DE LA URL VA A SER ESTE, SE RESCRIBE ASI CUALQUIER URL DE ESTE TIPO, todo esto con el fin de tener
+# una url limpia
+Rewriterule ^(.*)/(.*) index.php?controller=$1&action=$2
+
+
+</ifModule>
+
