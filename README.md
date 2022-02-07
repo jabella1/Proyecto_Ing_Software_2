@@ -21,6 +21,12 @@ Citizen es una aplicación web que le permitirá a la administración de la ciud
 
 ## Diagrama de Modulos
 <div align="left">
-    <img src="/docs/UML/Diagrama_Modulos.png" width="600px"</img> 
+    <img src="/docs/UML/Diagrama_Modulos.PNG" width="600px"</img> 
 </div>
+
+## Modelo C4
+El modelo C4 se utilizó para representar la arquitectura en diferentes niveles de abstracción:
+1.Sistema: muestra los sistemas externos utilizados y la interacción con los usuarios
+2.Contenedor: muestra los componentes de alto nivel que interactúan para completar una solicitud.
+3.Componente: muestra cómo está organizado un componente específico.
 
