@@ -11,5 +11,5 @@ Citizen es una aplicación web que le permitirá a la administración de la ciud
 
 ## Diagrama Secuencia - Citizen
 <div align="left">
-    <img src="/docs/UML/Diagrama_Secuencia_Citizen.PNG" width="600px"</img> 
+    <img src="/docs/UML/Diagrama_Secuencia_Citizen.png" width="600px"</img> 
 </div>
