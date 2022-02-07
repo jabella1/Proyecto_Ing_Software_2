@@ -19,3 +19,8 @@ Citizen es una aplicación web que le permitirá a la administración de la ciud
     <img src="/docs/UML/Diagrama_Secuencia_Usuario.png" width="600px"</img> 
 </div>
 
+## Diagrama de Modulos
+<div align="left">
+    <img src="/docs/UML/Diagrama_Modulos.png" width="600px"</img> 
+</div>
+
