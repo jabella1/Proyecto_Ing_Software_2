@@ -35,11 +35,13 @@ El modelo C4 se utilizó para representar la arquitectura en diferentes niveles 
 <div align="left">
     <img src="/docs/C4/Diagrama_Sistema.PNG" width="600px"</img> 
 </div>
-### 2. Diagrama de Contenedores
+
+## 2. Diagrama de Contenedores
 <div align="left">
     <img src="/docs/C4/Diagrama_Contenedores.PNG" width="600px"</img> 
 </div>
-#### 3. Diagrama de Componentes
+
+## 3. Diagrama de Componentes
 <div align="left">
     <img src="/docs/C4/Diagrama_Componentes.PNG" width="600px"</img> 
 </div>
