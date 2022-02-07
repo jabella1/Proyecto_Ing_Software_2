@@ -47,4 +47,6 @@ El modelo C4 se utilizó para representar la arquitectura en diferentes niveles 
 </div>
 
 # Pasos para ejecutar el software
-
+```
+1. Instalar - [`Wamp Server`](https://www.wampserver.com/en/)
+```
