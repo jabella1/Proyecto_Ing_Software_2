@@ -31,4 +31,16 @@ El modelo C4 se utilizó para representar la arquitectura en diferentes niveles 
 2.Contenedor: muestra los componentes de alto nivel que interactúan para completar una solicitud.
 3.Componente: muestra cómo está organizado un componente específico.
 ```
+## 1. Diagrama del Sistema
+<div align="left">
+    <img src="/docs/C4/Diagrama_Sistema.PNG" width="600px"</img> 
+</div>
+## 2. Diagrama de Contenedores
+<div align="left">
+    <img src="/docs/C4/Diagrama_Contenedores.PNG" width="600px"</img> 
+</div>
+## 3. Diagrama de Componentes
+<div align="left">
+    <img src="/docs/C4/Diagrama_Componentes.PNG" width="600px"</img> 
+</div>
 
