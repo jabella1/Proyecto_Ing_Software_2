@@ -46,3 +46,5 @@ El modelo C4 se utilizó para representar la arquitectura en diferentes niveles 
     <img src="/docs/C4/Diagrama_Componentes.PNG" width="600px"</img> 
 </div>
 
+# Pasos para ejecutar el software
+
