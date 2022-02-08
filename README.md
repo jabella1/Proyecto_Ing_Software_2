@@ -55,6 +55,7 @@ debera tener instalado Wamp Server en su equipo, si no lo tiene lo puede descarg
 4. Ejecutar todos los servicios de wamp server.
 5. en el navegador ir al siguiente enlace http://localhost/phpmyadmin/ , El usuario por defecto es root y no tiene contraseña.
 6. estando ya en la interfaz seleccionar en la barra superior el apartado que dice SQL.
-7. ahora debera ingresar a Citizen/database/database.sql , copiar todo el contenido que se encuentra adentro y pegarlo en el apartado del punto anterior.
+7. ahora debera ingresar a Citizen/database/database.sql , copiar todo el contenido que se encuentra
+adentro,pegarlo en el apartado del punto anterior y posteriormente ejecutarlo presionando Continuar.
 8. por ultimo en el navegador debera ingresar al siguiente enlace localhost/Citizen/  con esto, ya estara dentro del sitio web.
 ```
