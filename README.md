@@ -48,5 +48,13 @@ El modelo C4 se utilizó para representar la arquitectura en diferentes niveles 
 
 # Pasos para ejecutar el software
 ```
-1. Instalar - [`Wamp Server`](https://www.wampserver.com/en/)
+debera tener instalado Wamp Server en su equipo, si no lo tiene lo puede descargar de su pagina oficial https://www.wampserver.com/en/
+1. Descargar la carpeta Citizen que se encuentra en este repositorio.
+2. Ir al disco local C e ir a la siguiente ruta navegando entre las siguientes carpetas wamp64/www
+3. En esta ruta se procede a pegar la carpeta que se descargo,Citizen.
+4. Ejecutar todos los servicios de wamp server.
+5. en el navegador ir al siguiente enlace http://localhost/phpmyadmin/ , El usuario por defecto es root y no tiene contraseña.
+6. estando ya en la interfaz seleccionar en la barra superior el apartado que dice SQL.
+7. ahora debera ingresar a Citizen/database/database.sql , copiar todo el contenido que se encuentra adentro y pegarlo en el apartado del punto anterior.
+8. por ultimo en el navegador debera ingresar al siguiente enlace localhost/Citizen/  con esto, ya estara dentro del sitio web.
 ```
